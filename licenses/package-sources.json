@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "description": "补充锁定包内没有携带的许可与版权材料。包版本及声明取自本地锁定包；上游正文来源单独记录。",
+  "packages": {
+    "Microsoft.Data.Sqlite@10.0.12": {
+      "files": [
+        "upstream/dotnet-LICENSE.txt"
+      ],
+      "sources": [
+        "https://github.com/dotnet/dotnet/blob/95017c711e6afc1085133d440e42b4bd78155701/LICENSE.TXT"
+      ]
+    },
+    "Microsoft.Data.Sqlite.Core@10.0.12": {
+      "files": [
+        "upstream/dotnet-LICENSE.txt"
+      ],
+      "sources": [
+        "https://github.com/dotnet/dotnet/blob/95017c711e6afc1085133d440e42b4bd78155701/LICENSE.TXT"
+      ]
+    },
+    "Microsoft.Graphics.Win2D@1.4.0": {
+      "files": [
+        "upstream/Win2D-LICENSE.txt"
+      ],
+      "sources": [
+        "https://github.com/microsoft/Win2D/blob/winappsdk/main/LICENSE.txt",
+        "https://github.com/microsoft/Win2D/blob/winappsdk/main/README.md",
+        "https://github.com/microsoft/Win2D/blob/winappsdk/main/CHANGELOG.md",
+        "https://www.nuget.org/packages/Microsoft.Graphics.Win2D/1.4.0"
+      ],
+      "note": "微软官方 Win2D README 将项目许可明确指向 MIT；官方 CHANGELOG 同时记录 Win2D-WinUI 1.4.0（2026-03-10）及 2015-07-22 切换至 MIT。随分发保留官方 MIT 正文与原始 NuGet 声明；该包内 legacy licenseUrl 当前重定向，不能以重定向目标替代许可。"
+    },
+    "Microsoft.Windows.SDK.BuildTools@10.0.26100.4654": {
+      "files": [
+        "upstream/WindowsSDK-BuildTools-LICENSE.txt"
+      ],
+      "sources": [
+        "https://aka.ms/WinSDKLicenseURL"
+      ],
+      "note": "原始 RTF 与可读文本一同保留；此为构建工具，清单不等于将 SDK 工具加入运行分发。"
+    },
+    "SQLitePCLRaw.bundle_e_sqlite3@2.1.12": {
+      "files": [
+        "upstream/SQLitePCLRaw-LICENSE.txt",
+        "upstream/SQLitePCLRaw-NOTICE.txt"
+      ],
+      "sources": [
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/LICENSE.TXT",
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/NOTICE.TXT"
+      ]
+    },
+    "SQLitePCLRaw.core@2.1.12": {
+      "files": [
+        "upstream/SQLitePCLRaw-LICENSE.txt",
+        "upstream/SQLitePCLRaw-NOTICE.txt"
+      ],
+      "sources": [
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/LICENSE.TXT",
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/NOTICE.TXT"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3@2.1.12": {
+      "files": [
+        "upstream/SQLitePCLRaw-LICENSE.txt",
+        "upstream/SQLitePCLRaw-NOTICE.txt"
+      ],
+      "sources": [
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/LICENSE.TXT",
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/NOTICE.TXT"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3@2.1.12": {
+      "files": [
+        "upstream/SQLitePCLRaw-LICENSE.txt",
+        "upstream/SQLitePCLRaw-NOTICE.txt"
+      ],
+      "sources": [
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/LICENSE.TXT",
+        "https://github.com/ericsink/SQLitePCL.raw/blob/ca835d21508bff43121c65081035840ac5006c4c/NOTICE.TXT"
+      ]
+    },
+    "alloc-stdlib@0.2.4": {
+      "files": [
+        "upstream/dropbox-rust-alloc-no-stdlib-cd496ba72e-LICENSE"
+      ],
+      "sources": [
+        "https://github.com/dropbox/rust-alloc-no-stdlib/blob/ae42d22078b98549e987d2f03d12df7b984fde47/LICENSE"
+      ],
+      "source_revision": "ae42d22078b98549e987d2f03d12df7b984fde47"
+    },
+    "block2@0.6.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "b4167b582b2f75f9a1be75495c41b765344fd03c",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "cesu8@1.1.0": {
+      "files": [
+        "upstream/emk-cesu8-rs-52039ea7e5-COPYRIGHT-RUST.txt",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/emk/cesu8-rs/blob/master/COPYRIGHT-RUST.txt",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "defmt-parser@1.0.0": {
+      "files": [
+        "upstream/knurling-rs-defmt-11069edd79-LICENSE-APACHE",
+        "upstream/knurling-rs-defmt-e68a7ab37c-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/knurling-rs/defmt/blob/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+        "https://github.com/knurling-rs/defmt/blob/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT"
+      ],
+      "source_revision": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f"
+    },
+    "dispatch2@0.3.1": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "dlopen2@0.8.2": {
+      "files": [
+        "upstream/OpenByteDev-dlopen2-d38093a7a5-LICENSE"
+      ],
+      "sources": [
+        "https://github.com/OpenByteDev/dlopen2/blob/cc80e4a0a90d499b677fdf7743699b4b3a43a989/LICENSE"
+      ],
+      "source_revision": "cc80e4a0a90d499b677fdf7743699b4b3a43a989"
+    },
+    "dlopen2_derive@0.4.3": {
+      "files": [
+        "upstream/OpenByteDev-dlopen2-d38093a7a5-LICENSE"
+      ],
+      "sources": [
+        "https://github.com/OpenByteDev/dlopen2/blob/cc80e4a0a90d499b677fdf7743699b4b3a43a989/LICENSE"
+      ],
+      "source_revision": "cc80e4a0a90d499b677fdf7743699b4b3a43a989"
+    },
+    "jni-sys-macros@0.4.1": {
+      "files": [
+        "upstream/jni-rs-jni-sys-8f71f43fee-LICENSE-APACHE",
+        "upstream/jni-rs-jni-sys-2008402b8a-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/jni-rs/jni-sys/blob/64d77b7a5f119d7b55b4e2c169a4668067ff59e6/LICENSE-APACHE",
+        "https://github.com/jni-rs/jni-sys/blob/64d77b7a5f119d7b55b4e2c169a4668067ff59e6/LICENSE-MIT"
+      ],
+      "source_revision": "64d77b7a5f119d7b55b4e2c169a4668067ff59e6"
+    },
+    "libappindicator-sys@0.9.0": {
+      "files": [
+        "upstream/libappindicator-LICENSE-MIT.txt",
+        "upstream/libappindicator-LICENSE-APACHE.txt"
+      ],
+      "sources": [
+        "https://github.com/tauri-apps/libappindicator-rs/blob/eafd1e3682a1247f595410266091e9684021cb6f/LICENSE-APACHE",
+        "https://github.com/tauri-apps/libappindicator-rs/blob/eafd1e3682a1247f595410266091e9684021cb6f/LICENSE-MIT"
+      ],
+      "source_revision": "eafd1e3682a1247f595410266091e9684021cb6f"
+    },
+    "ndk@0.9.0": {
+      "files": [
+        "upstream/rust-mobile-ndk-261eeb9e9f-LICENSE-APACHE",
+        "upstream/rust-mobile-ndk-9cf106272a-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/rust-mobile/ndk/blob/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-APACHE",
+        "https://github.com/rust-mobile/ndk/blob/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-MIT"
+      ],
+      "source_revision": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+    },
+    "ndk-sys@0.6.0+11769913": {
+      "files": [
+        "upstream/rust-mobile-ndk-261eeb9e9f-LICENSE-APACHE",
+        "upstream/rust-mobile-ndk-9cf106272a-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/rust-mobile/ndk/blob/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-APACHE",
+        "https://github.com/rust-mobile/ndk/blob/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-MIT"
+      ],
+      "source_revision": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+    },
+    "objc2@0.6.4": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "8852b424193ca41602281b3d7540d7c8ed51e49a",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-app-kit@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-cloud-kit@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-core-data@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-core-foundation@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-core-graphics@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-core-image@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-core-location@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-core-text@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-encode@4.1.0": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-exception-helper@0.1.1": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "8d214f5477365ffcbcbb7de058c86ed9a518efb7",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-foundation@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-io-surface@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-quartz-core@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-ui-kit@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-user-notifications@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "objc2-web-kit@0.3.2": {
+      "files": [
+        "upstream/madsmtm-objc2-540ae4c81a-LICENSE.md",
+        "upstream/MIT-standard.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/madsmtm/objc2/blob/b4167b582b2f75f9a1be75495c41b765344fd03c/LICENSE.md",
+        "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7b1abfd750a2cacaea71d6a56ecfb83cb7de560b",
+      "note": "保留上游许可说明及锁定包原始作者/许可元数据；标准许可正文原样附入，不为上游填写或替换版权人。"
+    },
+    "r-efi@5.3.0": {
+      "files": [
+        "upstream/r-efi-5.3.0-AUTHORS.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/r-efi/r-efi/blob/97b55bed1c2c91dcbf787674849f05337ff80b33/AUTHORS",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "97b55bed1c2c91dcbf787674849f05337ff80b33"
+    },
+    "r-efi@6.0.0": {
+      "files": [
+        "upstream/r-efi-6.0.0-AUTHORS.txt",
+        "upstream/Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/r-efi/r-efi/blob/7e1b0322d31d625f81a5656096330934f9cd835d/AUTHORS",
+        "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      ],
+      "source_revision": "7e1b0322d31d625f81a5656096330934f9cd835d"
+    },
+    "selectors@0.36.1": {
+      "files": [
+        "upstream/MPL-2.0.txt",
+        "upstream/selectors-SOURCE-NOTICE.txt"
+      ],
+      "sources": [
+        "https://www.mozilla.org/media/MPL/2.0/index.txt",
+        "https://github.com/servo/stylo/blob/635e1a19d02960588a00e189bd4bd5bdb150ec3d/selectors/lib.rs"
+      ],
+      "source_revision": "635e1a19d02960588a00e189bd4bd5bdb150ec3d"
+    },
+    "tauri-plugin@2.6.3": {
+      "files": [
+        "upstream/tauri-apps-tauri-f433b1a53f-LICENSE_APACHE-2.0",
+        "upstream/tauri-apps-tauri-b08530d594-LICENSE_MIT"
+      ],
+      "sources": [
+        "https://github.com/tauri-apps/tauri/blob/6f6ab1207bb3923c2721fbc67d2fdb1c8deb0c7a/LICENSE_APACHE-2.0",
+        "https://github.com/tauri-apps/tauri/blob/6f6ab1207bb3923c2721fbc67d2fdb1c8deb0c7a/LICENSE_MIT"
+      ],
+      "source_revision": "6f6ab1207bb3923c2721fbc67d2fdb1c8deb0c7a"
+    },
+    "unic-char-property@0.9.0": {
+      "files": [
+        "upstream/open-i18n-rust-unic-0322ceec0b-COPYRIGHT.md",
+        "upstream/open-i18n-rust-unic-16fe87b06e-LICENSE-APACHE",
+        "upstream/open-i18n-rust-unic-31aa79387f-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/COPYRIGHT.md",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT"
+      ],
+      "source_revision": "5878605364af97a3358368a6eaef02104af2e016"
+    },
+    "unic-char-range@0.9.0": {
+      "files": [
+        "upstream/open-i18n-rust-unic-0322ceec0b-COPYRIGHT.md",
+        "upstream/open-i18n-rust-unic-16fe87b06e-LICENSE-APACHE",
+        "upstream/open-i18n-rust-unic-31aa79387f-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/COPYRIGHT.md",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT"
+      ],
+      "source_revision": "5878605364af97a3358368a6eaef02104af2e016"
+    },
+    "unic-common@0.9.0": {
+      "files": [
+        "upstream/open-i18n-rust-unic-0322ceec0b-COPYRIGHT.md",
+        "upstream/open-i18n-rust-unic-16fe87b06e-LICENSE-APACHE",
+        "upstream/open-i18n-rust-unic-31aa79387f-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/COPYRIGHT.md",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT"
+      ],
+      "source_revision": "5878605364af97a3358368a6eaef02104af2e016"
+    },
+    "unic-ucd-ident@0.9.0": {
+      "files": [
+        "upstream/open-i18n-rust-unic-0322ceec0b-COPYRIGHT.md",
+        "upstream/open-i18n-rust-unic-16fe87b06e-LICENSE-APACHE",
+        "upstream/open-i18n-rust-unic-31aa79387f-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/COPYRIGHT.md",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT"
+      ],
+      "source_revision": "8a6ce83063d90b91ae2ce59eddb803edd393fca9"
+    },
+    "unic-ucd-version@0.9.0": {
+      "files": [
+        "upstream/open-i18n-rust-unic-0322ceec0b-COPYRIGHT.md",
+        "upstream/open-i18n-rust-unic-16fe87b06e-LICENSE-APACHE",
+        "upstream/open-i18n-rust-unic-31aa79387f-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/COPYRIGHT.md",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT"
+      ],
+      "source_revision": "5878605364af97a3358368a6eaef02104af2e016"
+    },
+    "webview2-com@0.38.2": {
+      "files": [
+        "upstream/wravery-webview2-rs-de9a7e660e-LICENSE"
+      ],
+      "sources": [
+        "https://github.com/wravery/webview2-rs/blob/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE"
+      ],
+      "source_revision": "b74dc5e2b394044bea5191052868ce7a106c202c"
+    },
+    "webview2-com-macros@0.8.1": {
+      "files": [
+        "upstream/wravery-webview2-rs-de9a7e660e-LICENSE"
+      ],
+      "sources": [
+        "https://github.com/wravery/webview2-rs/blob/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE"
+      ],
+      "source_revision": "dffa41a8a46d3f5565eefbff2de57d38d399f158"
+    },
+    "webview2-com-sys@0.38.2": {
+      "files": [
+        "upstream/wravery-webview2-rs-de9a7e660e-LICENSE"
+      ],
+      "sources": [
+        "https://github.com/wravery/webview2-rs/blob/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE"
+      ],
+      "source_revision": "b74dc5e2b394044bea5191052868ce7a106c202c"
+    },
+    "winapi-i686-pc-windows-gnu@0.4.0": {
+      "files": [
+        "upstream/retep998-winapi-rs-8dada3edaf-LICENSE-APACHE",
+        "upstream/retep998-winapi-rs-6f1b4c850c-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/retep998/winapi-rs/blob/0.3/LICENSE-APACHE",
+        "https://github.com/retep998/winapi-rs/blob/0.3/LICENSE-MIT"
+      ]
+    },
+    "winapi-x86_64-pc-windows-gnu@0.4.0": {
+      "files": [
+        "upstream/retep998-winapi-rs-8dada3edaf-LICENSE-APACHE",
+        "upstream/retep998-winapi-rs-6f1b4c850c-LICENSE-MIT"
+      ],
+      "sources": [
+        "https://github.com/retep998/winapi-rs/blob/0.3/LICENSE-APACHE",
+        "https://github.com/retep998/winapi-rs/blob/0.3/LICENSE-MIT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType>
+    <IsTestProject>true</IsTestProject><IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/Pulse.Rendering/StarLayout.cs" Link="Rendering/StarLayout.cs" />
+    <Compile Include="../../src/Pulse.Rendering/OrbRotation.cs" Link="Rendering/OrbRotation.cs" />
+    <Compile Include="../../src/Pulse.Desktop/DesktopSettings.cs" Link="Desktop/DesktopSettings.cs" />
+    <ProjectReference Include="../../src/Pulse.Core/Pulse.Core.csproj" />
+    <ProjectReference Include="../../src/Pulse.Storage/Pulse.Storage.csproj" />
+    <PackageReference Include="xunit.v3" Version="4.0.1" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+</Project>

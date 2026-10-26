@@ -1,0 +1,9 @@
+import {cloneElement,useEffect,useRef,useState} from 'react';
+import {ActivityCalendar} from 'react-activity-calendar';
+import {type Daily} from './model';import {dayLabel} from './stats-model';import {calendarSize} from './calendar-size';
+export function AnnualCalendar({days,colors,unit,selected,onSelect,light}:{days:Daily[];colors:string[];unit:string;selected:string;onSelect:(date:string)=>void;light:boolean}){
+ const container=useRef<HTMLDivElement>(null),[width,setWidth]=useState(0);
+ useEffect(()=>{if(!container.current)return;const observer=new ResizeObserver(([entry])=>setWidth(entry.contentRect.width));observer.observe(container.current);return()=>observer.disconnect();},[]);
+ const byDate=new Map(days.map(d=>[d.date,d])),size=calendarSize(width,days[0].date,days.length);
+ return <div ref={container} className="annual-calendar"><ActivityCalendar data={days.map(d=>({date:d.date,count:Number(d.amount_atoms)/1000,level:d.level??0}))} theme={{dark:colors,light:colors}} colorScheme={light?'light':'dark'} weekStart={0} blockSize={size.block} blockMargin={size.gap} blockRadius={Math.min(5,size.block/4)} showTotalCount={false} showColorLegend={false} labels={{months:['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],weekdays:['日','一','二','三','四','五','六']}} renderBlock={(block,activity)=>{const d=byDate.get(activity.date);if(!d)return block;const applicable=d.availability==='in_scope';return <g><title>{dayLabel(d,unit)}</title>{cloneElement(block,{fill:applicable?colors[d.level??0]:'transparent',stroke:d.date===selected?(light?'#30333B':'#eceaf3'):applicable?'transparent':light?'#d8dadd':'#363b4e',strokeWidth:d.date===selected?2:1,tabIndex:applicable?0:-1,role:'button','aria-label':dayLabel(d,unit),'aria-disabled':!applicable,onClick:()=>{if(applicable)onSelect(d.date);},onKeyDown:e=>{if(applicable&&(e.key==='Enter'||e.key===' ')){e.preventDefault();onSelect(d.date);}}})}</g>;}}/></div>;
+}
